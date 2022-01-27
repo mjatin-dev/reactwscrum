@@ -1,0 +1,120 @@
+@import "../../styles/variables.scss";
+.termsText {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #6f6e73;
+  margin-top: 1rem;
+
+  &.otpVerificationMessage {
+    font-size: 14px;
+    color: #414047;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 0.5rem;
+  }
+  &.labelText {
+    font-size: 14px;
+    color: #808080;
+    margin-bottom: 1rem;
+  }
+  &.textLeft {
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+  &.errorMessage {
+    color: #e08080;
+    margin: 0.1rem 0;
+    text-align: left;
+  }
+}
+.termsTextLink {
+  color: rgb(122, 122, 255);
+  margin-bottom: 1rem 0;
+  margin-top: 0;
+  &.userData {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.signupContinueButton {
+  margin: 1rem 0;
+}
+.horizontalLine {
+  width: 100%;
+  max-width: 400px;
+  height: 1px;
+  background-color: #dfdfe0;
+  margin: 2rem 0 1rem 0;
+}
+.loginButton {
+  background: #414047;
+}
+.loginMessage {
+  color: #414047;
+  font-size: 14px;
+  margin-bottom: 0.75rem;
+}
+.otpSingleInputContainer {
+  min-width: 200px;
+  max-width: 280px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.otpSingleInput {
+  width: 25px;
+  height: 25px;
+  margin: 0rem 0.3rem;
+  padding: 0.55rem;
+
+  font-size: 12px;
+}
+.signupAcitonsLinks {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #587be0;
+  margin: 1rem 0;
+}
+.formInputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 90%;
+  max-width: 280px;
+}
+.accountIdInputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 280px;
+  .yourNameInput {
+    width: 100%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .nearInput {
+    width: 80px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+}

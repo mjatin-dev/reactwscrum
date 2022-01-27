@@ -1,0 +1,46 @@
+.home {
+  background-image: url("../../assets/frontBackground.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.logoContainer {
+  max-width: 240px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.logoText {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  color: #ffffff;
+
+  &.textSmall {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: normal;
+    margin: 0.75rem 0;
+  }
+}
+.poweredByContainer {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
